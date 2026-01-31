@@ -138,18 +138,16 @@ class CustomFooter extends HTMLElement {
                             <li><a href="#services">Branding</a></li>
                         </ul>
                     </div>
-                    
                     <div>
                         <h4>Company</h4>
                         <ul>
                             <li><a href="#about">About Us</a></li>
-                            <li><a href="#portfolio">Our Work</a></li>
-                            <li><a href="#contact">Careers</a></li>
+                            <li><a href="#portfolio">Results</a></li>
+                            <li><a href="#contact">Start a Project</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
-                    
-                    <div>
+<div>
                         <h4>Contact</h4>
                         <ul>
                             <li><a href="mailto:hello@kallkanmedia.com">hello@kallkanmedia.com</a></li>

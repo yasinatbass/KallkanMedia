@@ -52,7 +52,6 @@
 <body class="bg-light text-dark font-sans antialiased selection:bg-accent selection:text-white">
 
     <custom-navbar></custom-navbar>
-
     <!-- Hero Section -->
     <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         <div class="absolute inset-0 z-0">
@@ -63,21 +62,38 @@
         <div class="container mx-auto px-6 relative z-10">
             <div class="max-w-5xl mx-auto text-center">
                 <p class="text-accent font-medium tracking-widest uppercase text-sm mb-6 animate-fade-up" style="animation-delay: 0.1s;">
-                    Digital Agency • North Macedonia
+                    Creative Agency • Skopje, North Macedonia
                 </p>
-                <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-8 animate-fade-up" style="animation-delay: 0.2s;">
-                    We craft digital <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-orange-400">stories that sell.</span>
+                <h1 class="font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-tight mb-6 animate-fade-up" style="animation-delay: 0.2s;">
+                    Your brand deserves <br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-orange-400">to be unforgettable.</span>
                 </h1>
-                <p class="text-muted text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up" style="animation-delay: 0.3s;">
-                    Kallkan Media is a creative powerhouse transforming brands through strategic social media, stunning visuals, and compelling video content.
+                <p class="text-muted text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed animate-fade-up" style="animation-delay: 0.3s;">
+                    We help ambitious businesses stand out, attract premium customers, and drive measurable growth through strategic design and compelling content.
                 </p>
+                
+                <!-- Trust Indicators -->
+                <div class="flex flex-wrap justify-center items-center gap-6 mb-10 text-sm text-muted animate-fade-up" style="animation-delay: 0.35s;">
+                    <div class="flex items-center gap-2">
+                        <i data-feather="check-circle" class="w-4 h-4 text-accent"></i>
+                        <span>40+ Local Brands</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-feather="check-circle" class="w-4 h-4 text-accent"></i>
+                        <span>Proven ROI</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i data-feather="check-circle" class="w-4 h-4 text-accent"></i>
+                        <span>Premium Quality</span>
+                    </div>
+                </div>
+
                 <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-up" style="animation-delay: 0.4s;">
-                    <a href="#portfolio" class="px-8 py-4 bg-accent text-white rounded-full font-medium hover:bg-accent/90 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/25">
-                        View Our Work
+                    <a href="#contact" class="px-8 py-4 bg-accent text-white rounded-full font-medium hover:bg-accent/90 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/25 flex items-center gap-2">
+                        Get a Free Quote <i data-feather="arrow-right" class="w-4 h-4"></i>
                     </a>
-                    <a href="#contact" class="px-8 py-4 border-2 border-dark text-dark rounded-full font-medium hover:bg-dark hover:text-white transition-all duration-300">
-                        Start a Project
+                    <a href="#portfolio" class="px-8 py-4 border-2 border-dark text-dark rounded-full font-medium hover:bg-dark hover:text-white transition-all duration-300">
+                        View Our Work
                     </a>
                 </div>
             </div>
@@ -88,12 +104,22 @@
         </div>
     </section>
 
+    <!-- Trust Bar -->
+    <section class="py-8 bg-white border-y border-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-12 text-center">
+                <p class="text-sm font-medium text-muted uppercase tracking-wider">Trusted by businesses across North Macedonia</p>
+                <div class="h-4 w-px bg-gray-200 hidden md:block"></div>
+                <p class="text-sm text-muted">Delivering measurable results since 2019</p>
+            </div>
+        </div>
+    </section>
     <!-- Services Section -->
     <section id="services" class="py-24 md:py-32 bg-white">
         <div class="container mx-auto px-6">
             <div class="max-w-3xl mb-16 scroll-reveal">
-                <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">What we do best</h2>
-                <p class="text-muted text-lg">We blend creativity with strategy to deliver digital solutions that elevate your brand and engage your audience.</p>
+                <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">Solutions that drive growth</h2>
+                <p class="text-muted text-lg">We don't just create content—we build strategic assets that attract customers, build trust, and increase your revenue.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -102,7 +128,7 @@
                         <i data-feather="share-2" class="w-7 h-7 text-accent group-hover:text-white transition-colors"></i>
                     </div>
                     <h3 class="font-display text-xl font-bold mb-3">Social Media</h3>
-                    <p class="text-muted text-sm leading-relaxed">Strategic content creation and community management that grows your audience and drives engagement across all platforms.</p>
+                    <p class="text-muted text-sm leading-relaxed">Turn scrollers into buyers. Strategic content that builds communities, drives engagement, and converts followers into loyal customers.</p>
                 </div>
 
                 <div class="service-card group p-8 rounded-2xl bg-light border border-gray-100 hover:border-accent/20 hover:shadow-xl hover:shadow-accent/5 transition-all duration-500 scroll-reveal" style="transition-delay: 0.1s;">
@@ -110,7 +136,7 @@
                         <i data-feather="video" class="w-7 h-7 text-accent group-hover:text-white transition-colors"></i>
                     </div>
                     <h3 class="font-display text-xl font-bold mb-3">Video Production</h3>
-                    <p class="text-muted text-sm leading-relaxed">Cinematic storytelling through high-quality video content, from concept development to final edit and color grading.</p>
+                    <p class="text-muted text-sm leading-relaxed">Stories that sell. High-impact video content that captures attention in seconds and communicates your value with cinematic quality.</p>
                 </div>
 
                 <div class="service-card group p-8 rounded-2xl bg-light border border-gray-100 hover:border-accent/20 hover:shadow-xl hover:shadow-accent/5 transition-all duration-500 scroll-reveal" style="transition-delay: 0.2s;">
@@ -118,7 +144,7 @@
                         <i data-feather="camera" class="w-7 h-7 text-accent group-hover:text-white transition-colors"></i>
                     </div>
                     <h3 class="font-display text-xl font-bold mb-3">Photography</h3>
-                    <p class="text-muted text-sm leading-relaxed">Professional product, lifestyle, and corporate photography that captures the essence of your brand identity.</p>
+                    <p class="text-muted text-sm leading-relaxed">First impressions that convert. Professional visuals that position your products and services as premium, trustworthy, and irresistible.</p>
                 </div>
 
                 <div class="service-card group p-8 rounded-2xl bg-light border border-gray-100 hover:border-accent/20 hover:shadow-xl hover:shadow-accent/5 transition-all duration-500 scroll-reveal" style="transition-delay: 0.3s;">
@@ -126,19 +152,18 @@
                         <i data-feather="pen-tool" class="w-7 h-7 text-accent group-hover:text-white transition-colors"></i>
                     </div>
                     <h3 class="font-display text-xl font-bold mb-3">Branding & Design</h3>
-                    <p class="text-muted text-sm leading-relaxed">Complete visual identity systems including logo design, brand guidelines, and marketing collateral that stand out.</p>
+                    <p class="text-muted text-sm leading-relaxed">Stand out from the competition. Strategic visual identities that communicate quality, build recognition, and command premium pricing.</p>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Portfolio Section -->
     <section id="portfolio" class="py-24 md:py-32 bg-light">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 scroll-reveal">
                 <div class="max-w-2xl">
-                    <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">Selected work</h2>
-                    <p class="text-muted text-lg">A curated collection of our recent projects across digital media, branding, and content creation.</p>
+                    <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">Work that delivers results</h2>
+                    <p class="text-muted text-lg">Premium creative work for ambitious brands. Every project is designed to increase visibility, engagement, and revenue.</p>
                 </div>
                 <a href="#contact" class="mt-6 md:mt-0 inline-flex items-center gap-2 text-accent font-medium hover:gap-3 transition-all">
                     Start your project <i data-feather="arrow-right" class="w-4 h-4"></i>
@@ -146,57 +171,62 @@
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] scroll-reveal">
+                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] scroll-reveal cursor-pointer">
                     <img src="https://static.photos/workspace/800x1000/101" alt="Brand Campaign" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
-                        <span class="text-accent text-sm font-medium mb-2">Branding</span>
-                        <h3 class="text-white font-display text-2xl font-bold">Atlas Tech Rebrand</h3>
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                        <span class="text-accent text-sm font-medium mb-2">Complete Rebrand</span>
+                        <h3 class="text-white font-display text-2xl font-bold mb-1">Atlas Tech</h3>
+                        <p class="text-gray-300 text-sm">40% increase in qualified leads</p>
                     </div>
                 </div>
 
-                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] md:mt-12 scroll-reveal" style="transition-delay: 0.1s;">
+                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] md:mt-12 scroll-reveal cursor-pointer" style="transition-delay: 0.1s;">
                     <img src="https://static.photos/minimal/800x1000/202" alt="Social Media Campaign" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
-                        <span class="text-accent text-sm font-medium mb-2">Social Media</span>
-                        <h3 class="text-white font-display text-2xl font-bold">Luna Cosmetics</h3>
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                        <span class="text-accent text-sm font-medium mb-2">Social Media Growth</span>
+                        <h3 class="text-white font-display text-2xl font-bold mb-1">Luna Cosmetics</h3>
+                        <p class="text-gray-300 text-sm">300% growth in engagement</p>
                     </div>
                 </div>
 
-                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] scroll-reveal" style="transition-delay: 0.2s;">
+                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] scroll-reveal cursor-pointer" style="transition-delay: 0.2s;">
                     <img src="https://static.photos/technology/800x1000/303" alt="Video Production" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
-                        <span class="text-accent text-sm font-medium mb-2">Video Production</span>
-                        <h3 class="text-white font-display text-2xl font-bold">EcoStart Campaign</h3>
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                        <span class="text-accent text-sm font-medium mb-2">Viral Campaign</span>
+                        <h3 class="text-white font-display text-2xl font-bold mb-1">EcoStart</h3>
+                        <p class="text-gray-300 text-sm">1.2M views, 15K new customers</p>
                     </div>
                 </div>
 
-                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] md:mt-12 scroll-reveal" style="transition-delay: 0.3s;">
+                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] md:mt-12 scroll-reveal cursor-pointer" style="transition-delay: 0.3s;">
                     <img src="https://static.photos/food/800x1000/404" alt="Photography" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
-                        <span class="text-accent text-sm font-medium mb-2">Photography</span>
-                        <h3 class="text-white font-display text-2xl font-bold">Gourmet Series</h3>
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                        <span class="text-accent text-sm font-medium mb-2">Product Photography</span>
+                        <h3 class="text-white font-display text-2xl font-bold mb-1">Gourmet Market</h3>
+                        <p class="text-gray-300 text-sm">25% increase in online sales</p>
                     </div>
                 </div>
 
-                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] scroll-reveal" style="transition-delay: 0.4s;">
+                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] scroll-reveal cursor-pointer" style="transition-delay: 0.4s;">
                     <img src="https://static.photos/indoor/800x1000/505" alt="Interior Branding" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
-                        <span class="text-accent text-sm font-medium mb-2">Brand Identity</span>
-                        <h3 class="text-white font-display text-2xl font-bold">Mosaic Architecture</h3>
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                        <span class="text-accent text-sm font-medium mb-2">Visual Identity</span>
+                        <h3 class="text-white font-display text-2xl font-bold mb-1">Mosaic Architecture</h3>
+                        <p class="text-gray-300 text-sm">Premium positioning achieved</p>
                     </div>
                 </div>
 
-                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] md:mt-12 scroll-reveal" style="transition-delay: 0.5s;">
+                <div class="portfolio-item group relative overflow-hidden rounded-2xl aspect-[4/5] md:mt-12 scroll-reveal cursor-pointer" style="transition-delay: 0.5s;">
                     <img src="https://static.photos/people/800x1000/606" alt="Corporate Video" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-dark/80 via-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+                    <div class="absolute inset-0 bg-gradient-to-t from-dark/90 via-dark/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
                         <span class="text-accent text-sm font-medium mb-2">Content Strategy</span>
-                        <h3 class="text-white font-display text-2xl font-bold">Peak Performance</h3>
+                        <h3 class="text-white font-display text-2xl font-bold mb-1">Peak Performance</h3>
+                        <p class="text-gray-300 text-sm">Sold out 3 consecutive launches</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- About Section -->
     <section id="about" class="py-24 md:py-32 bg-white overflow-hidden">
         <div class="container mx-auto px-6">
@@ -207,42 +237,41 @@
                         <img src="https://static.photos/workspace/800x600/777" alt="Kallkan Media Team" class="w-full h-auto object-cover">
                     </div>
                     <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl max-w-xs hidden md:block">
-                        <p class="font-display font-bold text-2xl text-accent mb-1">5+ Years</p>
-                        <p class="text-muted text-sm">of creating impactful digital experiences for brands across the Balkans.</p>
+                        <p class="font-display font-bold text-2xl text-accent mb-1">100% Client</p>
+                        <p class="text-muted text-sm">Satisfaction rate with measurable results delivered on time.</p>
                     </div>
                 </div>
 
                 <div class="scroll-reveal">
                     <h2 class="font-display text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                        Creative minds based in <br>
-                        <span class="text-accent">North Macedonia</span>
+                        Your local partner for <br>
+                        <span class="text-accent">premium results</span>
                     </h2>
                     <p class="text-muted text-lg mb-6 leading-relaxed">
-                        Founded in Skopje, Kallkan Media brings together a diverse team of strategists, designers, videographers, and content creators united by one mission: to help brands tell their stories in the most compelling way possible.
+                        Based in Skopje and serving clients across North Macedonia and the Balkans, we combine local market expertise with world-class creative standards. We don't just make things look good—we create strategic assets that grow your business.
                     </p>
                     <p class="text-muted mb-8 leading-relaxed">
-                        We believe in the power of authentic storytelling. In a world flooded with content, we create work that matters—work that resonates with your audience and drives real business results.
+                        From ambitious startups to established enterprises, we partner with brands ready to invest in their growth. Our process is transparent, our communication is clear, and our focus is always on delivering ROI that justifies every dollar spent.
                     </p>
 
                     <div class="grid grid-cols-3 gap-8 py-8 border-t border-b border-gray-100">
                         <div>
                             <p class="font-display text-3xl font-bold text-dark mb-1">120+</p>
-                            <p class="text-muted text-sm">Projects Completed</p>
+                            <p class="text-muted text-sm">Projects Delivered</p>
                         </div>
                         <div>
-                            <p class="font-display text-3xl font-bold text-dark mb-1">45+</p>
-                            <p class="text-muted text-sm">Happy Clients</p>
+                            <p class="font-display text-3xl font-bold text-dark mb-1">40+</p>
+                            <p class="text-muted text-sm">Active Clients</p>
                         </div>
                         <div>
-                            <p class="font-display text-3xl font-bold text-dark mb-1">12</p>
-                            <p class="text-muted text-sm">Industry Awards</p>
+                            <p class="font-display text-3xl font-bold text-dark mb-1">5+</p>
+                            <p class="text-muted text-sm">Years Experience</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Contact Section -->
     <section id="contact" class="py-24 md:py-32 bg-dark text-white relative overflow-hidden">
         <div class="absolute inset-0 opacity-20">
@@ -253,8 +282,8 @@
         <div class="container mx-auto px-6 relative z-10">
             <div class="max-w-4xl mx-auto">
                 <div class="text-center mb-16 scroll-reveal">
-                    <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">Let's create something <br> extraordinary together</h2>
-                    <p class="text-gray-400 text-lg">Ready to elevate your brand? Tell us about your project and we'll get back to you within 24 hours.</p>
+                    <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">Ready to grow your business?</h2>
+                    <p class="text-gray-400 text-lg max-w-2xl mx-auto">Get a free consultation and quote within 24 hours. No commitment required—just clear insights on how we can help you achieve your goals.</p>
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-12">
@@ -266,7 +295,7 @@
                             <div>
                                 <h4 class="font-bold mb-1">Email Us</h4>
                                 <p class="text-gray-400 text-sm">hello@kallkanmedia.com</p>
-                                <p class="text-gray-400 text-sm">projects@kallkanmedia.com</p>
+                                <p class="text-gray-400 text-sm">Response within 24h guaranteed</p>
                             </div>
                         </div>
 
@@ -293,7 +322,7 @@
                         </div>
 
                         <div class="pt-8">
-                            <p class="text-sm text-gray-500 mb-4">Follow our work</p>
+                            <p class="text-sm text-gray-500 mb-4">Follow our latest work</p>
                             <div class="flex gap-4">
                                 <a href="#" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                                     <i data-feather="instagram" class="w-5 h-5"></i>
@@ -314,42 +343,43 @@
                     <form class="space-y-6 scroll-reveal" onsubmit="handleSubmit(event)">
                         <div class="grid md:grid-cols-2 gap-6">
                             <div>
-                                <label class="block text-sm font-medium mb-2">Name</label>
-                                <input type="text" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white placeholder-gray-500" placeholder="John Doe">
+                                <label class="block text-sm font-medium mb-2">Full Name</label>
+                                <input type="text" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white placeholder-gray-500" placeholder="Your name">
                             </div>
                             <div>
-                                <label class="block text-sm font-medium mb-2">Email</label>
-                                <input type="email" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white placeholder-gray-500" placeholder="john@example.com">
+                                <label class="block text-sm font-medium mb-2">Business Email</label>
+                                <input type="email" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white placeholder-gray-500" placeholder="you@company.com">
                             </div>
                         </div>
 
                         <div>
-                            <label class="block text-sm font-medium mb-2">Service Interested In</label>
-                            <select class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white">
+                            <label class="block text-sm font-medium mb-2">What do you need?</label>
+                            <select required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white">
                                 <option value="" class="bg-dark">Select a service</option>
                                 <option value="social" class="bg-dark">Social Media Management</option>
                                 <option value="video" class="bg-dark">Video Production</option>
-                                <option value="photo" class="bg-dark">Photography</option>
-                                <option value="branding" class="bg-dark">Branding & Design</option>
-                                <option value="all" class="bg-dark">Full Package</option>
+                                <option value="photo" class="bg-dark">Product Photography</option>
+                                <option value="branding" class="bg-dark">Brand Identity Design</option>
+                                <option value="all" class="bg-dark">Complete Marketing Package</option>
                             </select>
                         </div>
 
                         <div>
-                            <label class="block text-sm font-medium mb-2">Tell us about your project</label>
-                            <textarea rows="4" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white placeholder-gray-500 resize-none" placeholder="Describe your goals, timeline, and any specific requirements..."></textarea>
+                            <label class="block text-sm font-medium mb-2">Tell us about your goals</label>
+                            <textarea rows="4" required class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl focus:outline-none focus:border-accent transition-colors text-white placeholder-gray-500 resize-none" placeholder="What are you looking to achieve? Timeline? Budget range?"></textarea>
                         </div>
 
                         <button type="submit" class="w-full py-4 bg-accent text-white rounded-xl font-medium hover:bg-accent/90 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-accent/25 flex items-center justify-center gap-2">
-                            Send Message <i data-feather="send" class="w-4 h-4"></i>
+                            Get My Free Quote <i data-feather="arrow-right" class="w-4 h-4"></i>
                         </button>
+                        
+                        <p class="text-xs text-gray-500 text-center">Free consultation • No obligation • Response within 24h</p>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-
-    <custom-footer></custom-footer>
+<custom-footer></custom-footer>
 
     <script src="components/navbar.js"></script>
     <script src="components/footer.js"></script>

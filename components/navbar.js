@@ -216,25 +216,22 @@ class CustomNavbar extends HTMLElement {
                 <a href="#hero" class="logo">
                     Kallkan<span>.</span>
                 </a>
-                
                 <div class="desktop-menu">
                     <a href="#services">Services</a>
-                    <a href="#portfolio">Work</a>
+                    <a href="#portfolio">Results</a>
                     <a href="#about">About</a>
-                    <a href="#contact" class="cta-btn">Get in Touch</a>
+                    <a href="#contact" class="cta-btn">Get a Quote</a>
                 </div>
-                
-                <button class="mobile-toggle" aria-label="Toggle menu">
+<button class="mobile-toggle" aria-label="Toggle menu">
                     <div class="hamburger"></div>
                 </button>
-                
                 <div class="mobile-menu">
                     <a href="#services" class="mobile-link">Services</a>
-                    <a href="#portfolio" class="mobile-link">Work</a>
+                    <a href="#portfolio" class="mobile-link">Results</a>
                     <a href="#about" class="mobile-link">About</a>
-                    <a href="#contact" class="mobile-link cta-mobile">Get in Touch</a>
+                    <a href="#contact" class="mobile-link cta-mobile">Get a Quote</a>
                 </div>
-            </nav>
+</nav>
         `;
     }
 
